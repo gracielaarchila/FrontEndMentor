@@ -1,0 +1,45 @@
+/*CUSTOM PROPERTIES */
+:root {
+  --White: hsl(0, 0%, 100%);
+  --LightGray: hsl(212, 45%, 89%);
+  --GrayishBlue: hsl(220, 15%, 55%);
+  --DarkBlue: hsl(218, 44%, 22%);
+}
+
+/*GENERAL*/
+html {
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body {
+  font-family: "Outfit", sans-serif;
+  font-size: 11px;
+  text-align: center;
+  line-height: 2;
+  background-color: var(--LightGray);
+}
+
+a {
+  color: hsl(228, 45%, 44%);
+}
+
+.contenedor {
+  width: 320px;
+  height: 500px;
+  background-color: var(--White);
+  margin: auto;
+  padding: 15px;
+}
+.contenedor--picture {
+  width: 290px;
+  height: 290px;
+  background-image: url(../img/image-qr-code.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
